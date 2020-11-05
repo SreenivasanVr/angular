@@ -1,0 +1,19 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app2-detail',
+  templateUrl: './detail.component.html',
+  styleUrls: ['./detail.component.css']
+})
+export class DetailComponent implements OnInit {
+
+  constructor() { 
+
+    console.log("Detail Component Called");
+
+  }
+
+  ngOnInit(): void {
+  }
+
+}
